@@ -4,6 +4,8 @@ import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
 
 export default defineConfig(({ command }) => {
+  
+  
   return {
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
@@ -28,3 +30,4 @@ export default defineConfig(({ command }) => {
     plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
   };
 });
+
