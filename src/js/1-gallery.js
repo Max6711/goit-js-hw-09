@@ -1,4 +1,5 @@
-import simpleLightbox from 'simplelightbox';
+
+import simpleLightbox from 'simplelightbox'; // або '../node_modules/simplelightbox/dist/simple-lightbox.min.js', якщо це необхідно
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const images = [
